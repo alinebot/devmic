@@ -35,7 +35,7 @@ async def start(_, message: Message):
                         "📜 Add me to  your group 📜", url="https://t.me/URLmusicbot?startgroup=true")
                   ],[
                     InlineKeyboardButton(
-                        "👨‍💻 Updates 👨‍💻", url='https://t.me/Anie_news')
+                        "👨‍💻 Updates 👨‍💻", url="https://t.me/Anie_news"
                     )
                 ],[ 
                     InlineKeyboardButton(
