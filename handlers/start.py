@@ -32,7 +32,7 @@ async def start(_, message: Message):
             [ 
                 [
                     InlineKeyboardButton(
-                        "📜 Add me to  your group 📜", url="https://t.me/URLmusicbot?startgroup=true")
+                        "📜 Add me to  your group 📜", url="https://t.me/Denvilmusicbot?startgroup=true")
                   ],[
                     InlineKeyboardButton(
                         "👨‍💻 Updates 👨‍💻", url="https://t.me/Anie_news"
