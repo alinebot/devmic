@@ -21,15 +21,15 @@ from dotenv import load_dotenv
 
 load_dotenv()
 que = {}
-SESSION_NAME = getenv("SESSION_NAME", "session")
-BOT_TOKEN = getenv("BOT_TOKEN")
-BOT_NAME = getenv("BOT_NAME")
+SESSION_NAME = "BQBYC9-C-OpmkLme19I6pee2KRm-TjYNH0jIXto75u2y3u2xRmEfXv63QSszcDqYkd5aofvuvptjUI_smwopnrV-AylfHkucPRo1TQCoetxiCClCXOJAtW9SCCfuyxuHnJ3hxBAEcTww81nao1Co0MmAb30q6gs6_9nX4TbooFpDRJ4IoAarbRdxtZoJxA02kOfz8f6mq2L0FMKL9zTW4fuiAmuVIwvPWR9qOAzHnVaL1mrQOg8bAoP9OwRmnvpbzrlSmSUHnuuvYaeMyFhaL-85DAxZkfPb0rq1lVKX3l37aFFOf3Kskrerb7gpQpM3tHv0twHjdsxst28edxy527fdVve3jAA"
+BOT_TOKEN = "1601132113:AAE5dwnlhqxPA90yzA9XCwLhiAtIm-PUf5Q"
+BOT_NAME = "URLmusicbot"
 admins = {}
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = 2255574
+API_HASH = "8967d0744d99a1287bbcb837a130cce9"
 
-DURATION_LIMIT = int(getenv("DURATION_LIMIT", "7"))
+DURATION_LIMIT = 10
 
-COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
+COMMAND_PREFIXES = "/ !"
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
+SUDO_USERS = 1759123364
